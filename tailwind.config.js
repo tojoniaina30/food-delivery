@@ -14,6 +14,22 @@ export default {
       '2xl': '32px',
       '3xl': '40px',
       '4xl': '60px',
+    },
+    fontWeight: {
+      normal: 400,
+      semibold: 600,
+      bold: 700,
+      extrabold: 800,
+    },
+    colors: {
+      primary: {
+        light: '#FFF3ED',
+        DEFAULT: '#FD6D22',
+      },
+      secondary: {
+        light: '##F3F4FF',
+        DEFAULT: '#4E60FF',
+      }
     }
   },
   plugins: [
