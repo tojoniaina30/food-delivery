@@ -27,13 +27,18 @@ export default {
         DEFAULT: '#FD6D22',
       },
       secondary: {
-        light: '##F3F4FF',
+        light: '#F3F4FF',
         DEFAULT: '#4E60FF',
-      }
-    }
+      },
+      gray: {
+        lightest: '#EDEEF2',
+        light: '#C7C8D2',
+        DEFAULT: '#83859C',
+      },
+      white: '#fff',
+    },
   },
-  plugins: [
 
+  plugins: [
   ],
 }
-

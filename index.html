@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Style/reset.scss">
+  <link rel="stylesheet" href="Style/style.scss">
   <link rel="stylesheet" href="Style/login.scss">
 </head>
 
@@ -20,53 +21,63 @@
 
   <section class="login">
     <div class="sign-in">
-      <div class="login-title">
+      <div class="sign-in-title">
         <h1>Login</h1>
         <p>Sign in with your data that you entered during your registration.</p>
       </div>
 
-      <form action="">
-        <label for="email">Email</label>
-        <div>
-          <input type="email" placeholder="name@example.com">
-        </div>
-      </form>
+      <div class="sign-in-register">
+        <form action="" class="form">
+          <label for="email">Email</label>
+          <div class="input-completed">
+            <input type="email" placeholder="name@example.com">
+          </div>
+        </form>
 
-      <form action="">
-        <label for="Password">Password</label>
-        <div>
-          <input type="password" placeholder="min. 8 characters">
-          <img
-            src="src/assets/Food Delivery UI - Free (Copy) (5)/textfield/contained input/right icon/icon/outlined/action/eye/eye on.png"
-            alt="eye_on">
-        </div>
-      </form>
+        <form action="" class="form">
+          <label for="Password">Password</label>
+          <div class="input-completed">
+            <input type="password" placeholder="min. 8 characters">
+            <img
+              src="src/assets/Food Delivery UI - Free (Copy) (5)/textfield/contained input/right icon/icon/outlined/action/eye/eye on.png"
+              alt="eye_on">
+          </div>
+        </form>
 
-      <form action="">
-        <input type="checkbox" name="" id="">Keep me logged in
-      </form>
+        <form action="">
+          <input type="checkbox" name="" id=""> Keep me logged in
+        </form>
+      </div>
 
-      <form action="">
-        <input type="button" value="">Login
-      </form>
+      <div class="sign-in-btn">
+        <form action="" class="form">
+          <div class="input-completed btn ">
+            <input type="button" value="">Login
+          </div>
+        </form>
+        <form action="" class="form">
+          <div class="input-completed btn btn-opposite">
+            <input type="button" value="">Forgot password
+          </div>
+        </form>
+      </div>
 
-      <form action="">
-        <input type="button" value="">Forgot password
-      </form>
-
-      <p>Don’t have an account?</p><a href="#sign-up">Sign up</a>
+      <div class="sign-in-up">
+        <p>Don’t have an account?</p>
+        <a href="#sign-up">Sign up</a>
+      </div>
     </div>
 
     <div class="login-cover">
-      <img src="src/assets/Food Delivery UI - Free (Copy) (5)/Group 9.png" alt="cover">
-      <h2>Leave reviews for all meals</h2>
-      <p>Lorem ipsum dolor sit amet, magna scaevola his ei. Cum te paulo probatus molestiae, eirmod assentior eum ne,
-        et omnis antiopam mel.</p>
+      <img class="cover-pic" src="src/assets/Food Delivery UI - Free (Copy) (5)/Group 10.png" alt="cover">
+      <div class="login-cover-desc">
+        <h3>Leave reviews for all meals</h3>
+        <p>Lorem ipsum dolor sit amet, magna scaevola his ei. Cum te paulo probatus molestiae, eirmod assentior eum ne,
+          et omnis antiopam mel.</p>
+      </div>
       <img src="src/assets/Food Delivery UI - Free (Copy) (5)/dots.png" alt="dots">
     </div>
   </section>
-
-  <script type="module" src="/main.js"></script>
 </body>
 
 </html>
