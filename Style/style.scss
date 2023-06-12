@@ -23,10 +23,10 @@ h1 {
 
 h2 {
     @apply text-3xl font-extrabold text-primary;
+}
 
-    &-org {
-        @apply text-secondary;
-    }
+.h2-scd {
+    @apply text-secondary;
 }
 
 h3 {
@@ -37,6 +37,14 @@ h4,
 template,
 .desc {
     @apply text-sm font-semibold;
+}
+
+h5 {
+    @apply text-lg font-bold;
+}
+
+a {
+    @apply text-base font-bold;
 }
 
 p,

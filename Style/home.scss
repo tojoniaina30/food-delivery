@@ -3,9 +3,11 @@
 }
 
 .search {
-    @apply flex flex-row items-center gap-5;
-    padding: 12px;
-    margin-left: 48px;
+    @apply flex flex-row items-center gap-5 p-3 ml-12 rounded-2xl bg-gray-lightest;
+
+    input {
+        @apply bg-gray-lightest;
+    }
 
     @media screen and (max-width: 1280px) {
         display: none;
@@ -26,10 +28,8 @@
 }
 
 .bag {
-    @apply bg-secondary-light;
-    margin-left: 24px;
+    @apply ml-6 rounded-2xl bg-secondary-light;
     padding: 14px;
-    border-radius: 16px;
 
     img {
         min-width: 20px;
@@ -42,12 +42,10 @@
 }
 
 .user {
-    @apply flex items-center justify-center;
+    @apply flex items-center justify-center rounded-2xl border-2 border-solid border-gray-lightest;
     width: 50px;
     height: 50px;
     margin-left: 17px;
-    border: 2px solid #EDEEF2;
-    border-radius: 16px;
 
     img {
         min-width: 48px;
@@ -71,12 +69,86 @@
     }
 
     @media screen and (max-width: 1280px) {
-        @apply bg-gray-lightest;
-        width: 44px;
-        height: 44px;
+        @apply bg-gray-lightest rounded-2xl ml-5 w-11 h-11;
         display: inherit;
-        margin-left: 20px;
         padding: 14px;
-        border-radius: 16px;
     }
+}
+
+/* .home {
+    @apply flex flex-col items-center;
+} */
+
+//promotion
+.promo {
+    @apply flex flex-row items-center justify-center mt-6;
+    gap: 30px;
+
+    @media screen and (max-width: 1280px) {
+        @apply flex-col;
+    }
+}
+
+.promo-card {
+    @apply flex flex-wrap items-center rounded-2xl bg-secondary-light;
+
+    &--prim {
+        @apply bg-primary-light;
+    }
+
+    @media screen and (max-width: 1280px) {
+        @apply flex-col-reverse;
+    }
+}
+
+.promo-desc {
+    @apply flex flex-col gap-9;
+    margin: 24px 24px 16px 16px;
+
+    &-title {
+        width: 210px;
+    }
+
+    p {
+        @apply text-gray;
+    }
+
+    @media screen and (max-width: 1280px) {
+        @apply flex-row;
+    }
+}
+
+.menu {
+    @apply flex flex-wrap justify-center items-center mt-8;
+    gap: 30px;
+
+    @media screen and (max-width: 1280px) {
+        gap: 15px;
+    }
+}
+
+.category {
+    @apply flex flex-col justify-center items-center h-20 w-40 gap-3 rounded-2xl border-2 border-solid border-gray-lightest;
+
+    @media screen and (max-width: 1280px) {
+        width: 100px;
+    }
+
+    &:hover {
+        @apply bg-secondary-lightest border-secondary;
+    }
+}
+
+.category-select {
+    @apply bg-secondary-light border-2 border-solid border-secondary;
+
+    .categ-title {
+        @apply text-lg font-bold text-secondary;
+
+    }
+}
+
+.categ-title {
+    @apply text-lg font-bold text-gray-dark;
+
 }
