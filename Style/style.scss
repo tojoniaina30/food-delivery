@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Nunito', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    @apply flex flex-row justify-center items-center w-full border-gray-lightest py-4;
+    border-bottom: 2px solid;
+
+    @media screen and (max-width: 1280px) {
+        width: none;
+    }
+}
+
+h1 {
+    @apply text-4xl font-bold;
+}
+
+h2 {
+    @apply text-3xl font-extrabold text-primary;
+
+    &-org {
+        @apply text-secondary;
+    }
+}
+
+h3 {
+    @apply text-xl font-semibold;
+}
+
+h4,
+template,
+.desc {
+    @apply text-sm font-semibold;
+}
+
+p,
+input {
+    @apply text-base font-normal;
+}
+
+
+
+.form {
+    @apply flex flex-col items-start gap-2;
+}
+
+.input-completed {
+    @apply flex flex-row items-center justify-between p-3 rounded-lg border-2 border-solid border-gray-light;
+    height: 44px;
+    width: 350px;
+
+    @media screen and (max-width: 1280px) {
+        width: 330px;
+    }
+}

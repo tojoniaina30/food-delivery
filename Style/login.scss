@@ -1,0 +1,76 @@
+.login {
+    @apply flex flex-row justify-end;
+    gap: 125px;
+
+    @media screen and (max-width: 1280px) {
+        @apply justify-center
+    }
+}
+
+.sign-in {
+    @apply flex-col items-start;
+    width: 350px;
+    margin-bottom: 40px;
+
+    @media screen and (max-width: 1280px) {
+        width: 330px;
+    }
+}
+
+.sign-in-header {
+    @apply mt-5
+}
+
+.sign-in-title {
+    @apply flex-col items-start gap-4 mb-8;
+    margin-top: 128px;
+
+    @media screen and (max-width: 1280px) {
+        margin-top: 60px;
+    }
+}
+
+.sign-in-register {
+    @apply flex flex-col gap-7 mb-10;
+}
+
+.sign-in-btn {
+    @apply flex flex-col items-center gap-4;
+
+    .btn {
+        @apply flex items-center justify-center border-none bg-secondary text-white;
+    }
+
+    .btn-opposite {
+        @apply bg-white text-secondary;
+    }
+}
+
+.sign-in-up {
+    @apply flex flex-row items-center justify-center gap-1;
+    margin-top: 94px;
+
+    a {
+        @apply text-secondary
+    }
+}
+
+.login-cover {
+    @apply flex flex-col items-center bg-secondary;
+    width: 800px;
+
+    @media screen and (max-width: 1280px) {
+        display: none;
+    }
+}
+
+.cover-pic {
+    height: 514px;
+    width: 664px;
+    margin: 48px 71px 68px auto
+}
+
+.login-cover-desc {
+    @apply flex flex-col items-center gap-4 text-white text-center mb-10;
+    width: 480px;
+}
