@@ -75,9 +75,7 @@
     }
 }
 
-/* .home {
-    @apply flex flex-col items-center;
-} */
+
 
 //promotion
 .promo {
@@ -151,4 +149,48 @@
 .categ-title {
     @apply text-lg font-bold text-gray-dark;
 
+}
+
+
+
+.restaurant {
+    @apply mt-10;
+}
+
+.restaurant-cards {
+    @apply flex flex-wrap items-center mt-4;
+}
+
+.card {
+    @apply rounded-2xl border-2 border-solid border-gray-lightest;
+}
+
+.card-desc {
+    @apply flex flex-col p-4;
+    gap: 14px
+}
+
+.card-desc-header {
+    @apply flex flex-row items-center justify-between;
+}
+
+.card-desc-detail {
+    @apply flex items-center gap-2;
+
+    .point {
+        @apply rounded-2xl w-1 h-1 bg-secondary;
+    }
+}
+
+.categ {
+    @apply flex flex-row items-center gap-2;
+
+    &-div {
+        @apply flex flex-row items-center gap-2 rounded-2xl bg-gray-lightest;
+        padding: 4px 10px;
+    }
+
+    &-desc {
+        @apply text-gray-dark;
+    }
 }
