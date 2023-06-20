@@ -38,6 +38,7 @@ export default {
         dark: '#545563',
       },
       white: '#fff',
+      red: '#FF5C60',
     },
   },
 

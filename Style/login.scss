@@ -31,20 +31,9 @@
 }
 
 .sign-in-register {
-    @apply flex flex-col gap-7 mb-10;
+    @apply flex flex-wrap gap-7 mb-10;
 }
 
-.sign-in-btn {
-    @apply flex flex-wrap items-center gap-4;
-
-    .btn {
-        @apply flex items-center justify-center border-none bg-secondary text-white;
-    }
-
-    .btn-opposite {
-        @apply bg-white text-secondary;
-    }
-}
 
 .sign-in-up {
     @apply flex flex-row items-center justify-center gap-1;

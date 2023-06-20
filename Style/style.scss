@@ -44,7 +44,8 @@ h5 {
 }
 
 a,
-h6 {
+h6,
+.btn-text {
     @apply text-base font-bold;
 }
 
@@ -59,6 +60,10 @@ input {
     @apply flex flex-col items-start gap-2;
 }
 
+.form-check {
+    @apply flex flex-row items-center gap-3;
+}
+
 .input-completed {
     @apply flex flex-row items-center justify-between p-3 rounded-lg border-2 border-solid border-gray-light;
     height: 44px;
@@ -66,5 +71,43 @@ input {
 
     @media screen and (max-width: 1280px) {
         width: 330px;
+    }
+}
+
+/* .input-account {
+    @apply flex flex-row items-center justify-between p-3 rounded-lg border-2 border-solid border-gray-light;
+
+} */
+
+.sign-in-btn {
+    @apply flex flex-wrap items-center gap-4;
+
+    .btn {
+        @apply rounded-lg px-4 py-3 flex items-center justify-center border-none bg-secondary text-white;
+    }
+
+    .btn-opposite {
+        @apply bg-white text-secondary;
+    }
+
+    .btn-neutre {
+        @apply bg-white text-gray border border-solid border-gray-dark;
+        /* width: 84px;
+
+        @media screen and (max-width: 1280px) {
+            width: 83px;
+        } */
+    }
+
+    .btn-neutre-scd {
+        @apply bg-white text-secondary border border-solid border-secondary;
+    }
+
+    .btn-logout {
+        @apply bg-white text-red border-red border-solid border;
+
+        @media screen and (max-width:1280px) {
+            width: 266px;
+        }
     }
 }
