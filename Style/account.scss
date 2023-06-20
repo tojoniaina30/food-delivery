@@ -1,0 +1,192 @@
+.logo {
+    min-width: 79px
+}
+
+.search {
+    @apply flex flex-row items-center gap-5 p-3 ml-12 rounded-2xl bg-gray-lightest;
+
+    input {
+        @apply bg-gray-lightest;
+    }
+
+    @media screen and (max-width: 1280px) {
+        display: none;
+    }
+}
+
+.lil-line-y {
+    @apply h-8 w-0.5 bg-gray-light;
+}
+
+.item {
+    @apply flex flex-row items-center gap-6;
+    margin-left: 370px;
+
+    @media screen and (max-width: 1280px) {
+        display: none;
+    }
+}
+
+.bag {
+    @apply ml-6 rounded-2xl bg-secondary-light;
+    padding: 14px;
+
+    img {
+        min-width: 20px;
+        height: 20px;
+    }
+
+    @media screen and (max-width: 1280px) {
+        margin-left: 58px;
+    }
+}
+
+.user {
+    @apply flex items-center justify-center rounded-2xl border-2 border-solid border-gray-lightest;
+    width: 50px;
+    height: 50px;
+    margin-left: 17px;
+
+    img {
+        min-width: 48px;
+    }
+}
+
+.line-mbl {
+    display: none;
+
+    @media screen and (max-width: 1280px) {
+        display: inherit;
+        margin-left: 20px;
+    }
+}
+
+.navigation {
+    display: none;
+
+    img {
+        min-width: 16px;
+    }
+
+    @media screen and (max-width: 1280px) {
+        @apply bg-gray-lightest rounded-2xl ml-5 w-11 h-11;
+        display: inherit;
+        padding: 14px;
+    }
+}
+
+//section account-setting
+.account-setting {
+    @apply flex flex-wrap justify-center mt-6;
+    gap: 30px;
+}
+
+.setting {
+    @apply flex flex-col items-start gap-4;
+}
+
+.setting-nav {
+    @apply flex flex-col items-center gap-3;
+
+    @media screen and (max-width: 1280px) {
+        @apply gap-4;
+        width: 330px;
+    }
+}
+
+.set-menu {
+    @apply flex flex-row items-center gap-3 p-4 rounded-2xl border-2 border-solid border-gray-lightest;
+    width: 350px;
+
+    @media screen and (max-width: 1280px) {
+        width: 330px;
+    }
+
+    img {
+        @apply bg-gray-lightest rounded-xl;
+        padding: 10px
+    }
+}
+
+.set-menu:hover,
+.active {
+    @apply border-secondary bg-secondary-light;
+
+    img {
+        @apply bg-secondary rounded-xl;
+        padding: 10px
+    }
+}
+
+.account {
+    @apply flex flex-col gap-4;
+    max-width: 730px;
+}
+
+.account-edit {
+    @apply flex flex-col pt-6 px-4 gap-4 border border-gray-lightest border-solid rounded-2xl;
+
+}
+
+.account-register {
+    @apply flex flex-col gap-3 mb-12;
+
+    @media screen and (max-width: 1280px) {
+        @apply flex gap-4;
+    }
+}
+
+.div-form {
+    @apply flex flex-row gap-4;
+
+    @media screen and (max-width: 1280px) {
+        @apply flex flex-col gap-4;
+    }
+}
+
+.account-input {
+    width: 341px;
+
+    @media screen and (max-width: 1280px) {
+        width: 298px;
+    }
+}
+
+.checking {
+    @apply flex flex-row gap-4;
+
+    @media screen and (max-width:1280px) {
+        @apply flex-col gap-6;
+    }
+}
+
+.checking-box {
+    @apply flex flex-col gap-6;
+    width: 341px;
+
+    @media screen and (max-width:1280px) {
+        width: 298px;
+    }
+}
+
+.account-footer {
+    @apply flex flex-row justify-between items-center py-5 border-t border-solid border-t-gray-lightest mt-9;
+
+    @media screen and (max-width:1280px) {
+        @apply flex-col border-none mt-5 py-5 gap-5;
+    }
+}
+
+.sign-in-btn {
+    @media screen and (max-width:1280px) {
+        @apply flex-row gap-4;
+    }
+}
+
+.footer-line {
+    @apply hidden w-full h-0.5 bg-gray-lightest;
+
+    @media screen and (max-width:1280px) {
+        display: inherit;
+    }
+}

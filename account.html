@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/main.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style/reset.scss">
+    <link rel="stylesheet" href="Style/style.scss">
+    <link rel="stylesheet" href="Style/account.scss">
+</head>
+
+<body>
+    <header>
+        <img src="src/assets/Food Delivery UI - Free (Copy) (5)/logo/main.png" alt="" class="logo">
+        <div class=search>
+            <input type="text" placeholder="Search ...">
+            <img src="src/assets/Home/icon/outlined/action/main/search.png" alt="serch">
+        </div>
+        <nav class="item">
+            <a href="#">Restaurants</a>
+            <a href="#">Deals</a>
+            <div class="lil-line-y"></div>
+            <a href="#">My orders</a>
+        </nav>
+        <nav class="bag">
+            <a href="#">
+                <img src="src/assets/Home/icon/outlined/other/shop/shopping bag-1.png" alt="bag">
+            </a>
+        </nav>
+        <nav class="user">
+            <a href="">
+                <img src="src/assets/Home/avatar/other/main avatar.png" alt="icon_avatar">
+            </a>
+        </nav>
+        <div class="lil-line-y line-mbl"></div>
+        <nav class="navigation">
+            <a href="">
+                <img src="src/assets/Home/icon/outlined/other/navigation menu (horizontal)/example/mobile/navigation (horizontal)/elements/search/icon/outlined/action/main/menu.png"
+                    alt="navigation">
+            </a>
+        </nav>
+    </header>
+
+    <section class="account-setting">
+        <div class="setting">
+            <h3>Settings</h3>
+            <nav class="setting-nav">
+                <a class="set-menu active">
+                    <img src="src/assets/Account/menu/item with icon/icon/outlined/other/person/user.png" alt="">
+                    <div class="set-menu-desc">
+                        <h6>Account</h6>
+                        <p>Personal information</p>
+                    </div>
+                </a>
+                <a href="" class="set-menu">
+                    <img src="src/assets/Account/menu/item with icon/icon/outlined/other/location/map pin.png" alt="">
+                    <div class="set-menu-desc">
+                        <h6>Address</h6>
+                        <p>Shippings addresses</p>
+                    </div>
+                </a>
+                <a href="" class="set-menu">
+                    <img src="src/assets/Account/menu/item with icon/icon/outlined/other/other/credit card.png" alt="">
+                    <div class="set-menu-desc">
+                        <h6>Payment method</h6>
+                        <p>Connected credit cards</p>
+                    </div>
+                </a>
+                <a href="" class="set-menu"><img
+                        src="src/assets/Account/menu/item with icon/icon/outlined/action/shield/shield on.png" alt="">
+                    <div class="set-menu-desc">
+                        <h6>Security</h6>
+                        <p>Password, 2FA</p>
+                    </div>
+                </a>
+            </nav>
+        </div>
+        <div class="account">
+            <h3>Account</h3>
+            <div class="account-edit">
+                <h5>Personal information</h5>
+                <form action="">
+                    <label for="">Avatar</label>
+                    <div class="avatar-div flex flex-row items-center gap-6">
+                        <img src="src/assets/Account/avatar/other/main avatar.png" alt="">
+                        <div class="sign-in-btn">
+                            <form class="from" action="">
+                                <div class="btn btn-neutre-scd">
+                                    <input class="btn-text" type="button">Change
+                                </div>
+                            </form>
+                            <form class="from" action="">
+                                <div class="btn btn-neutre">
+                                    <input class="btn-text" type="button">Remove
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="account-register">
+                    <div class="div-form">
+                        <form action="" class="form">
+                            <label for="fname">First name</label>
+                            <div class="input-completed account-input ">
+                                <input type="email" placeholder="Jane">
+                            </div>
+                        </form>
+                        <form action="" class="form">
+                            <label for="lname">Last name</label>
+                            <div class="input-completed account-input ">
+                                <input type="email" placeholder="Robertson">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="div-form">
+                        <form action="" class="form">
+                            <label for="email">Email</label>
+                            <div class="input-completed account-input ">
+                                <input type="email" placeholder="jane.robertson@example.com">
+                            </div>
+                        </form>
+                        <form action="" class="form">
+                            <label for="number">Phone number</label>
+                            <div class="input-completed account-input ">
+                                <input type="email" placeholder="(217) 555-0113">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <h5>Email notifications</h5>
+                <div class="checking">
+                    <div class="checking-box">
+                        <form class="form form-check" action="">
+                            <input type="checkbox" name="deals" id="">New deals
+                        </form>
+                        <form class="form form-check" action="">
+                            <input type="checkbox" name="restaurant" id="">New restaurants
+                        </form>
+                        <form class="form form-check" action="">
+                            <input type="checkbox" name="statuses" id="">Order statuses
+                        </form>
+                    </div>
+                    <div class="checking-box">
+                        <form class="form form-check" action="">
+                            <input type="checkbox" name="deals" id="">New deals
+                        </form>
+                        <form class="form form-check" action="">
+                            <input type="checkbox" name="restaurant" id="">New restaurants
+                        </form>
+                        <form class="form form-check" action="">
+                            <input type="checkbox" name="statuses" id="">Order statuses
+                        </form>
+                    </div>
+                </div>
+                <div class="account-footer">
+                    <div class="sign-in-btn">
+                        <form action="">
+                            <div class="btn btn-logout">
+                                <input class="btn-text" type="button">Log Out
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="footer-line">
+                    </div>
+                    <div class="sign-in-btn">
+                        <form action="">
+                            <div class="btn btn-neutre">
+                                <input class="btn-text" type="button" value="">Discard changes
+                            </div>
+
+                        </form>
+                        <form action="">
+                            <div class="btn">
+                                <input class="btn-text" type="button" value="">Save changes
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
