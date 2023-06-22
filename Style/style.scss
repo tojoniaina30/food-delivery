@@ -60,6 +60,10 @@ input {
     @apply flex flex-col gap-2;
 }
 
+.div-input {
+    @apply flex flex-col gap-1 pb-5;
+}
+
 .form-check {
     @apply flex flex-row items-center gap-3;
 }
@@ -74,10 +78,6 @@ input {
     }
 }
 
-.input-account {
-    @apply flex flex-row items-center justify-between p-3 rounded-lg border-2 border-solid border-gray-light;
-
-}
 
 .sign-in-btn {
     @apply flex flex-wrap items-center gap-4;

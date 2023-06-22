@@ -31,9 +31,16 @@
 }
 
 .sign-in-register {
-    @apply flex flex-wrap gap-7 mb-4e;
+    @apply flex flex-wrap gap-7;
 }
 
+.btn-login {
+    @apply mt-10;
+}
+
+.btn-forgot {
+    @apply mt-4;
+}
 
 .sign-in-up {
     @apply flex flex-row items-center justify-center gap-1;
