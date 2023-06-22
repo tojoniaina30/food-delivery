@@ -80,8 +80,8 @@
                 </a>
             </nav>
         </div>
-
         <div class="account">
+
             <h3>Account</h3>
             <div class="account-edit">
                 <h5>Personal information</h5>
@@ -90,102 +90,92 @@
                     <div class="avatar-div flex flex-row items-center gap-6">
                         <img src="src/assets/Account/avatar/other/main avatar.png" alt="">
                         <div class="sign-in-btn">
-                            <form class="from" action="">
-                                <div class="btn btn-neutre-scd">
-                                    <input class="btn-text" type="button">Change
+                            <div class="btn btn-neutre-scd">
+                                <button class="btn-text" type="submit">Change</button>
+                            </div>
+                            <div class="btn btn-neutre">
+                                <button class="btn-text" type="submit">Remove</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="account-register">
+                        <div class="div-form">
+                            <div class="div-input">
+                                <label for="fname">First name</label>
+                                <div class="input-completed account-input ">
+                                    <input type="email" placeholder="Jane">
                                 </div>
-                            </form>
-                            <form class="from" action="">
-                                <div class="btn btn-neutre">
-                                    <input class="btn-text" type="button">Remove
+                            </div>
+                            <div class="div-input">
+                                <label for="lname">Last name</label>
+                                <div class="input-completed account-input ">
+                                    <input type="email" placeholder="Robertson">
                                 </div>
-                            </form>
+                            </div>
+                        </div>
+
+                        <div class="div-form">
+                            <div class="div-input">
+                                <label for="email">Email</label>
+                                <div class="input-completed account-input ">
+                                    <input type="email" placeholder="jane.robertson@example.com">
+                                </div>
+                            </div>
+                            <div class="div-input">
+                                <label for="number">Phone number</label>
+                                <div class="input-completed account-input ">
+                                    <input type="email" placeholder="(217) 555-0113">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5>Email notifications</h5>
+
+                    <div class="checking">
+                        <div class="checking-box">
+                            <div class="form-check">
+                                <input type="checkbox" name="deals" id="">New deals
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="restaurant" id="">New restaurants
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="statuses" id="">Order statuses
+                            </div>
+                        </div>
+                        <div class="checking-box">
+                            <div class="form-check">
+                                <input type="checkbox" name="deals" id="">New deals
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="restaurant" id="">New restaurants
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" name="statuses" id="">Order statuses
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="account-footer">
+                        <div class="sign-in-btn">
+                            <div class="btn btn-logout">
+                                <button class="btn-text" type="submit" formaction="/index.html">Log Out
+                            </div>
+                        </div>
+                        <div class="footer-line">
+                        </div>
+                        <div class="sign-in-btn">
+                            <div class="btn btn-neutre">
+                                <button class="btn-text" type="submit" value="">Discard changes
+                            </div>
+                            <div class="btn">
+                                <button class="btn-text" type="submit" value="">Save changes
+                            </div>
                         </div>
                     </div>
                 </form>
-
-                <div class="account-register">
-                    <div class="div-form">
-                        <form action="" class="form">
-                            <label for="fname">First name</label>
-                            <div class="input-completed account-input ">
-                                <input type="email" placeholder="Jane">
-                            </div>
-                        </form>
-                        <form action="" class="form">
-                            <label for="lname">Last name</label>
-                            <div class="input-completed account-input ">
-                                <input type="email" placeholder="Robertson">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="div-form">
-                        <form action="" class="form">
-                            <label for="email">Email</label>
-                            <div class="input-completed account-input ">
-                                <input type="email" placeholder="jane.robertson@example.com">
-                            </div>
-                        </form>
-                        <form action="" class="form">
-                            <label for="number">Phone number</label>
-                            <div class="input-completed account-input ">
-                                <input type="email" placeholder="(217) 555-0113">
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                <h5>Email notifications</h5>
-                <div class="checking">
-                    <div class="checking-box">
-                        <form class="form form-check" action="">
-                            <input type="checkbox" name="deals" id="">New deals
-                        </form>
-                        <form class="form form-check" action="">
-                            <input type="checkbox" name="restaurant" id="">New restaurants
-                        </form>
-                        <form class="form form-check" action="">
-                            <input type="checkbox" name="statuses" id="">Order statuses
-                        </form>
-                    </div>
-                    <div class="checking-box">
-                        <form class="form form-check" action="">
-                            <input type="checkbox" name="deals" id="">New deals
-                        </form>
-                        <form class="form form-check" action="">
-                            <input type="checkbox" name="restaurant" id="">New restaurants
-                        </form>
-                        <form class="form form-check" action="">
-                            <input type="checkbox" name="statuses" id="">Order statuses
-                        </form>
-                    </div>
-                </div>
-                <div class="account-footer">
-                    <div class="sign-in-btn">
-                        <form action="">
-                            <div class="btn btn-logout">
-                                <input class="btn-text" type="button">Log Out
-                            </div>
-
-                        </form>
-                    </div>
-                    <div class="footer-line">
-                    </div>
-                    <div class="sign-in-btn">
-                        <form action="">
-                            <div class="btn btn-neutre">
-                                <input class="btn-text" type="button" value="">Discard changes
-                            </div>
-
-                        </form>
-                        <form action="">
-                            <div class="btn">
-                                <input class="btn-text" type="button" value="">Save changes
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
