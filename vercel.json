@@ -1,12 +1,9 @@
 {
-    "rewrites": [
+    "routes": [
         {
-            "source": "/home",
-            "destination": "/home.html"
-        },
-        {
-            "source": "/account",
-            "destination": "/account.html"
+            "src": "/[^.]+",
+            "dest": "/dist",
+            "status": 200
         }
     ]
 }
